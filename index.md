@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "忘川的博客"
-  text: "WangChuanVlog"
-  tagline: My great project tagline
+  text: "WangChuanBlog"
+  tagline: "游戏 电影 音乐分享"
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,10 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 游 戏
+    details: 目前已开放地下城与勇士、穿越火线、问道等游戏。
+  - title: 电 影
+    details: 包含各大4K高清资源站。
+  - title: 音 乐
+    details: 分享各大无损HIFI音乐资源平台。
 ---
-
