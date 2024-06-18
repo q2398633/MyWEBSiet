@@ -7,6 +7,7 @@ import {
   shallowRef,
   watch
 } from "./chunk-BM2MTCRR.js";
+import Theme from '@escook/vitepress-theme'
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "E:/MYCODE/VitePress/VitePress-Demo/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
