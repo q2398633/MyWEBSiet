@@ -1,17 +1,19 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
   name: "忘川的博客"
   text: "WangChuanBlog"
   tagline: "游戏 电影 音乐分享"
+  image:
+    src: "/BLG3.jpg"
+    alt: "忘 川"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 游 戏 专 栏
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 电 影 专 栏
       link: /api-examples
 
 features:

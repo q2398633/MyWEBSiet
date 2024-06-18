@@ -5,15 +5,40 @@ export default defineConfig({
   title: "忘川",
   description: "WangChuanBlog",
   themeConfig: {
+    logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "首页", link: "/" },
+      {
+        text: "首页",
+        items: [
+          {
+            text: "游 戏",
+            items: [
+              { text: "地下城与勇士", link: "/web/地下城与勇士/DNF.md" },
+              { text: "穿越火线", link: "/web/穿越火线/CF.md" },
+              { text: "问道", link: "/web/问道/AskTao.md" },
+            ],
+          },
+          {
+            text: "影 视",
+            items: [
+              { text: "日 剧", link: "/忘川影视/日剧/极恶非道.md" },
+              { text: "韩 剧", link: "/忘川影视/韩剧/新世界.md" },
+              { text: "美 剧", link: "/忘川影视/美剧/不死法医.md" },
+            ],
+          },
+          {
+            text: "音 乐",
+            items: [{ text: "HiFi资源网", link: "/Music/HiFi音乐网站.md" }],
+          },
+        ],
+      },
       { text: "品类目录", link: "/markdown-examples" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "忘 川 的 宝 库",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
@@ -42,7 +67,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      copyright: "忘川摆渡翁版权所有,合作请联系右上角联系方式；备注来意",
+      copyright: "忘川© 版权所有， 合作请联系右上角联系方式，  备注来意",
     },
   },
 });
