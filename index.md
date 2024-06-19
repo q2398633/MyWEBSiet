@@ -6,7 +6,7 @@ hero:
   text: "WangChuanBlog"
   tagline: "游戏 电影 音乐分享"
   image:
-    src: "/BLG3.jpg"
+    src: "/public/LG2.jpg"
     alt: "忘 川"
   actions:
     - theme: brand
